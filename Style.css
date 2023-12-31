@@ -1,0 +1,45 @@
+*{
+      padding: 0px;
+      margin: 0px;
+      text-align: center;
+      background-color: pink;
+    }
+      h1{
+        background-color: red;
+        height: 50px;
+        width: 384px; 
+      }
+      button{
+        border: none;
+        background-color: black;
+        color: white;
+        width: 250px;
+        height: 50px;
+        margin-top: 5px;
+        border-radius: 50px;
+      }
+      button:hover{
+        background-color: white;
+        color: black;
+      }
+      p{
+        margin-top: 445px;
+      }
+      h1{
+        background-color: red;
+        height: 50px;
+        width: 384px; 
+      }
+      button{
+        border: none;
+        background-color: black;
+        color: white;
+        width: 250px;
+        height: 50px;
+        margin-top: 5px;
+        border-radius: 50px;
+      }
+      button:hover{
+        background-color: white;
+        color: black;
+      }

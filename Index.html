@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+    <style>
+    *{
+      margin: 0px;
+      padding: 0px;
+      background-color: white;
+      text-align: center;
+    }
+      h1{
+        background-color: blue;
+        width: 384px;
+        height: 75px;
+      }
+      p{
+        margin-top: 10px;
+        text-align: center;
+      }
+      .colorful-button {
+padding: 10px 20px;
+font-size: 16px;
+background-color: #f06d06;
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+outline: none;
+}
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>test</h1>
+    </header>
+    <p>Kumpulan link dc samp paling rame</p>
+    <p>lunar pride (LPRP)</p>
+    <button class="colorful-button"
+onclick="changeColor()">CLICK ME</button>
+<p>GRAN COUNTRY (GCRP)</p>
+<a href="https://discord.com/invite/grandcountryrp"><button class="colorful-button"
+onclick="changeColor()">CLICK ME</button><a></a>
+ <script>
+  function changeColor() {
+    var colors = ['red', 'blue', 'green', 'yellow', 'purple', 'orange'];
+    var randomColor = colors[Math.floor(Math.random() * colors.length)];
+    document.querySelector('.colorful-button').style.backgroundColor = randomColor;
+  }
+</script>
+  </body>
+</html>
